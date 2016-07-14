@@ -8,7 +8,7 @@ bot.team_join(function(obj) {
       {
           token: token,
           channel: obj.user.id,
-          text: "Hello new user and welcome to the team!"
+          text: "Hello and welcome to the BWS Community!"
       },
       function(err, data) {
           // Handle errors here
